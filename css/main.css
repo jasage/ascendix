@@ -1,0 +1,32 @@
+#map{
+    border: 1px solid steelblue;
+    float: right;
+    height: 400px;
+    background-color: grey;
+}
+#pic img{
+    border: 1px solid steelblue;
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+#list{
+    columns: 2;
+    list-style: none;
+}
+#list li span:first-child{
+    color: steelblue;
+}
+.head, #info, #desc, #avail{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    margin: 10px;
+}
+.sb{
+    color: steelblue;
+}
+.rec{
+    float: right;
+}
